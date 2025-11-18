@@ -1,0 +1,65 @@
+body {
+  justify-content: center;
+  height: 100%;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  max-width: 420px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.start-btn, .get-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.start-btn {
+  background-color: #3b82f6;
+}
+
+.get-btn {
+  background-color: #10b981;
+}
+
+.start-btn:hover, .get-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.dropdown {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.pokemonInfo {
+  gap: 10px;
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.pokemonInfo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
